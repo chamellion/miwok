@@ -2,6 +2,8 @@ package com.example.android.miwok;
 
 import android.widget.ImageView;
 
+import junit.framework.Assert;
+
 public class Word {
 
 
@@ -40,9 +42,7 @@ public class Word {
     }
     public boolean hasImage(){
         return mImageResourceId != NO_IMAGE_PROVIDED;
-    }public int getAudio(){
-        return mAudio;
-    }
+    }public int getAudio(){ return mAudio;}
 
     @Override
     public String toString() {
